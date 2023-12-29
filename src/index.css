@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .no-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+ .no-scroll {
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+}
+
+footer  p,li {
+ cursor: pointer;
+}
+
+footer h4 {
+ font-weight: 600;
+}
+
+footer p {
+font-size: 12px;
+margin: 10px 0;
+}
+
+.icons > * {
+cursor: pointer;
+}
+
+.grey > p,li {
+color: grey;
+transition: all ease 0.5s;
+}
+
+.grey > p:hover {
+    color: white;
+}
+
+.navItem {
+    position: relative;
+    cursor:pointer;
+    transition:all ease 2s
+}
+
+.navItem:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+
+.silder {
+    position: absolute;
+}
