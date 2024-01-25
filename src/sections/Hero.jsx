@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="mb-16">
       <div className="md:mx-16">
         <div className={headerImage}>
-          <img loading="lazy" src="{headerImage}" className="w-full h-full object-cover" alt="hero_image" />
+          <img loading="lazy" src="{headerImg}" className="w-full h-full object-cover" alt="hero_image" />
         </div>
         <div className="text-center">
         <h1 className={heroHeader}>GIFTS THAT MOVE YOU</h1>
