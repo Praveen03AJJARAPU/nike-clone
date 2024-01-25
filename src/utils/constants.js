@@ -1,10 +1,5 @@
-//specifics
-import img1 from '../../gallery/slider1.jpg';
-import img2 from '../../gallery/slider2.jpg';
-import img3 from '../../gallery/slider3.jpg';
-import img4 from '../../gallery/slider4.jpg';
 
-
+export const headerImg = 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8558cf63-5595-4b34-8af4-bcdceb3ffcb0/jordan-essentials-fleece-pullover-hoodie-Zst2nM.png';
 export const btnStyle = "mr-5 font-medium bg-black text-white px-5 py-2 rounded-3xl";
 export const hoverBtn = "hover:scale-110 hover:shadow-lg ease duration-150"
 export const headerImage = "h-[400px] md:h-[600px] md:mb-7"
